@@ -1,3 +1,4 @@
+
 const PRODUCTS = [
   {
     id: "capemay",
@@ -406,6 +407,21 @@ function getVisibleProducts() {
   return PRODUCTS.filter(p => (p.categories || []).includes(activeFilter));
 }
 
+function applyFilterFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const filter = params.get("filter");
+  if (!filter) return;
+
+  const allowed = new Set(["all", "mini-ledgestone", "ledgestone", "square-rectangle", "mosaic", "building-stone"]);
+  if (!allowed.has(filter)) return;
+
+  activeFilter = filter;
+
+  for (const b of filterButtons) b.classList.remove("is-active");
+  const match = filterButtons.find(b => b.dataset.filter === filter);
+  if (match) match.classList.add("is-active");
+}
+
 function renderGrid() {
   const visible = getVisibleProducts();
 
@@ -504,6 +520,10 @@ filterButtons.forEach(btn => {
     for (const b of filterButtons) b.classList.remove("is-active");
     btn.classList.add("is-active");
 
+    const url = new URL(window.location.href);
+    url.searchParams.set("filter", activeFilter);
+    window.history.replaceState({}, "", url);
+
     renderGrid();
   });
 });
@@ -522,4 +542,5 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
+applyFilterFromUrl();
 renderGrid();

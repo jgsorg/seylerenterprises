@@ -126,6 +126,31 @@ body {
     width: 100%;
 }
 
+@media (max-width: 720px) {
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        inset-inline: 0;
+        top: 56px;
+        flex-direction: column;
+        background-color: rgba(198, 187, 173, 0.98);
+        padding: 0.75rem 1.5rem 1rem;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(-8px);
+        transition: max-height 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+    }
+
+    .nav-links.open {
+        max-height: 220px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 
 .products-page .products-header h1 {
@@ -352,4 +377,22 @@ body {
 
 .modal-specs dd {
   margin: 0;
+}
+
+.modal-panel {
+  max-height: 90vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 860px) {
+  .modal-panel {
+    width: calc(100% - 1rem);
+    margin: 3vh auto;
+    max-height: 94vh;
+  }
+
+  .modal-main-image {
+    height: 260px;
+  }
 }
