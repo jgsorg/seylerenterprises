@@ -4,11 +4,11 @@ const PRODUCTS = [
     id: "capemay",
     name: "Cape May",
     categories: ["ledgestone", "square-rectangle"],
-    cover: "images/capemay/CapeMayhouse.png",
+    cover: "images/capemay/CapeMayhouse.webp",
     images: [
-      "images/capemay/CapeMay.jpg",
-      "images/capemay/CapeMayhouse.png",
-      "images/capemay/CapeMayhouse2.png"
+      "images/capemay/CapeMay.webp",
+      "images/capemay/CapeMayhouse.webp",
+      "images/capemay/CapeMayhouse2.webp"
     ],
     description: "Cape May's fairly monochromatic light gray palette is offset by subtle sparkle, resulting from mica inclusions.  This is an excellent material for clients who want a clean, linear look.",
     specs: {
@@ -21,14 +21,14 @@ const PRODUCTS = [
     id: "castlerock",
     name: "Castle Rock",
     categories: ["square-rectangle"],
-    cover: "images/castlerock/CastleRockPanel.png",
+    cover: "images/castlerock/CastleRockPanel.webp",
     images: [
-      "images/castlerock/CastleRockEntryWall.png",
-      "images/castlerock/CastleRockHouse007.jpg",
-      "images/castlerock/CastleRockHouse009.jpg",
-      "images/castlerock/CastleRockHouseFront.png",
-      "images/castlerock/CastleRockPorch.png",
-      "images/castlerock/CastleRockWall.png"
+      "images/castlerock/CastleRockEntryWall.webp",
+      "images/castlerock/CastleRockHouse007.webp",
+      "images/castlerock/CastleRockHouse009.webp",
+      "images/castlerock/CastleRockHouseFront.webp",
+      "images/castlerock/CastleRockPorch.webp",
+      "images/castlerock/CastleRockWall.webp"
     ],
     description: "This stone offers a rich, warm, natural look, with shades of brown, tan, rust and gray which is perfect for rustic, country manor and casual settings.",
     specs: {
@@ -43,8 +43,8 @@ const PRODUCTS = [
     cover: "images/cedarfield/Cedarfieldledge1.webp",
     images:[
       "images/cedarfield/Cedarfield-Storefront.webp",
-      "images/cedarfield/Cedarfield.jpg",
-      "images/cedarfield/Cedarfieldledge.jpg",
+      "images/cedarfield/Cedarfield.webp",
+      "images/cedarfield/Cedarfieldledge.webp",
       "images/cedarfield/Cedarfieldledge2.webp"
     ],
     description: "",
@@ -57,10 +57,10 @@ const PRODUCTS = [
     id: "coldriverrounds",
     name: "Cold River Rounds",
     categories: ["mosaic"],
-    cover: "images/coldriverrounds/ColdRiverRound.jpg",
+    cover: "images/coldriverrounds/ColdRiverRound.webp",
     images: [
-      "images/coldriverrounds/ColdRiverRound.jpg",
-      "images/coldriverrounds/ColdRiverRoundFireplace.jpg",
+      "images/coldriverrounds/ColdRiverRound.webp",
+      "images/coldriverrounds/ColdRiverRoundFireplace.webp",
       "images/coldriverrounds/ColdRiverDoor.jpeg",
       "images/coldriverrounds/ColdRiverWall.jpeg",
       "images/coldriverrounds/ColdRiverWall2.jpeg"
@@ -75,18 +75,18 @@ const PRODUCTS = [
     id: "hydepark",
     name: "Hyde Park",
     categories: ["ledgestone","square-rectangle","mosaic","mini-ledgestone"],
-    cover: "images/hydepark/HydeParkPanel.png",
+    cover: "images/hydepark/HydeParkPanel.webp",
     images:[
-      "images/hydepark/HydeParkchimney.jpg",
-      "images/hydepark/HydeParkHouse.jpg",
-      "images/hydepark/HydeParkLedge.png",
+      "images/hydepark/HydeParkchimney.webp",
+      "images/hydepark/HydeParkHouse.webp",
+      "images/hydepark/HydeParkLedge.webp",
       "images/hydepark/HydeParkLedge1.webp",
       "images/hydepark/HydeParkMosaic.webp",
       "images/hydepark/HydeParkRR.webp",
       "images/hydepark/HydeParkRR1.webp",
       "images/hydepark/HydeParkRR2.webp",
       "images/hydepark/HydeParkRR3.webp",
-      "images/hydepark/HydeParkSR.jpg"
+      "images/hydepark/HydeParkSR.webp"
     ],
     description: "This stone offers a rich, natural, weathered look in toness of brown, tan, green and gray, which is perfect for rustic, country manor, contemporary and casual settings.  ",
     specs: {
@@ -98,14 +98,14 @@ const PRODUCTS = [
     id: "pinehurst",
     name: "Pinehurst",
     categories: ["ledgestone","square-rectangle","mosaic"],
-    cover: "images/pinehurst/PinehurstPanel.jpg",
+    cover: "images/pinehurst/PinehurstPanel.webp",
     images:[
       "images/pinehurst/PinehurstFront.webp",
-      "images/pinehurst/PinehurstInstall.jpg",
+      "images/pinehurst/PinehurstInstall.webp",
       "images/pinehurst/PinehurstLedge.webp",
       "images/pinehurst/PinehurstLedge2.webp",
       "images/pinehurst/PinehurstLedge3.webp",
-      "images/pinehurst/PinehurstSR.jpg"
+      "images/pinehurst/PinehurstSR.webp"
     ],
     description: "",
     specs: {
@@ -117,11 +117,11 @@ const PRODUCTS = [
     id: "brindle",
     name: "Brindle",
     categories: [""],
-    cover: "images/brindle/BrindlePanelMortar.jpg",
+    cover: "images/brindle/BrindlePanelMortar.webp",
     images:[
-      "images/brindle/BrindlePanelMortar.jpg",
-      "images/brindle/BrindlePanelDry.jpg",
-      "images/brindle/Brindle.jpg"
+      "images/brindle/BrindlePanelMortar.webp",
+      "images/brindle/BrindlePanelDry.webp",
+      "images/brindle/Brindle.webp"
     ],
     description: "",
     specs: {
@@ -134,11 +134,11 @@ const PRODUCTS = [
     id: "countrywine",
     name: "Country Wine",
     categories: ["ledgestone"],
-    cover: "images/countrywine/CountryWinePanel.jpg",
+    cover: "images/countrywine/CountryWinePanel.webp",
     images:[
-      "images/countrywine/CountryWineDoor.jpg",
-      "images/countrywine/CountryWineHouse.jpg",
-      "images/countrywine/CountryWineWall.jpg"
+      "images/countrywine/CountryWineDoor.webp",
+      "images/countrywine/CountryWineHouse.webp",
+      "images/countrywine/CountryWineWall.webp"
     ],
     description: "Country Wine is a limestone that offers exquisite coloration with its weathered, split face.",
     specs: {
@@ -150,22 +150,22 @@ const PRODUCTS = [
     id: "poconobrown",
     name: "Pocono Brown",
     categories: ["ledgestone"],
-    cover: "images/poconobrown/PoconoBrownLoose.jpg",
+    cover: "images/poconobrown/PoconoBrownLoose.webp",
     images:[
-      "images/poconobrown/PoconoBrown1.jpg",
-      "images/poconobrown/PoconoBrown2.jpg",
+      "images/poconobrown/PoconoBrown1.webp",
+      "images/poconobrown/PoconoBrown2.webp",
       
-      "images/poconobrown/PoconoBrown4.jpg",
-      "images/poconobrown/PoconoBrownFireplace.JPG",
-      "images/poconobrown/PoconoBrownFireplace2.JPG",
-      "images/poconobrown/PoconoBrownFireplace3.JPG",
-      "images/poconobrown/PoconoBrownFireplace4.JPG",
-      "images/poconobrown/PoconoBrownFireplace5.JPG",
-      "images/poconobrown/PoconoBrownHouse.JPG",
-      "images/poconobrown/PoconoBrownHouse2.JPG",
-      "images/poconobrown/PoconoBrownLedge.jpg",
-      "images/poconobrown/PoconoBrownWall.JPG",
-      "images/poconobrown/PoconoBrownWall2.jpg"
+      "images/poconobrown/PoconoBrown4.webp",
+      "images/poconobrown/PoconoBrownFireplace.webp",
+      "images/poconobrown/PoconoBrownFireplace2.webp",
+      "images/poconobrown/PoconoBrownFireplace3.webp",
+      "images/poconobrown/PoconoBrownFireplace4.webp",
+      "images/poconobrown/PoconoBrownFireplace5.webp",
+      "images/poconobrown/PoconoBrownHouse.webp",
+      "images/poconobrown/PoconoBrownHouse2.webp",
+      "images/poconobrown/PoconoBrownLedge.webp",
+      "images/poconobrown/PoconoBrownWall.webp",
+      "images/poconobrown/PoconoBrownWall2.webp"
     ],
     description: "Pocono Brown offers a range of colors from rich browns to neutral creams and tans, with a blend of natural weathered face and split face on the exposed face surface.  This stone offers a rich, warm, natural look, which is perfect for rustic, country manor and casual settings.",
     specs: {
@@ -177,20 +177,20 @@ const PRODUCTS = [
     id: "ravenwood",
     name: "Ravenwood",
     categories: ["square-rectangle","mosaic"],
-    cover: "images/ravenwood/RavenwoodSR.jpg",
+    cover: "images/ravenwood/RavenwoodSR.webp",
     images:[ 
-      "images/ravenwood/RavenwoodChimney.jpg",
-      "images/ravenwood/RavenwoodChimney2.jpg",
-      "images/ravenwood/RavenwoodFS1.jpg",
-      "images/ravenwood/RavenwoodFS3.jpg",
-      "images/ravenwood/RavenwoodFS4.jpg",
-      "images/ravenwood/RavenwoodFS5.jpg",
-      "images/ravenwood/RavenwoodMosaic.jpg",
-      "images/ravenwood/RavenwoodSq1.jpg",
-      "images/ravenwood/RavenwoodSq2.jpg",
-      "images/ravenwood/RavenwoodSquare.jpg",
-      "images/ravenwood/RavenwoodSR.jpg",
-      "images/ravenwood/RavenwoodWindows.jpg"
+      "images/ravenwood/RavenwoodChimney.webp",
+      "images/ravenwood/RavenwoodChimney2.webp",
+      "images/ravenwood/RavenwoodFS1.webp",
+      "images/ravenwood/RavenwoodFS3.webp",
+      "images/ravenwood/RavenwoodFS4.webp",
+      "images/ravenwood/RavenwoodFS5.webp",
+      "images/ravenwood/RavenwoodMosaic.webp",
+      "images/ravenwood/RavenwoodSq1.webp",
+      "images/ravenwood/RavenwoodSq2.webp",
+      "images/ravenwood/RavenwoodSquare.webp",
+      "images/ravenwood/RavenwoodSR.webp",
+      "images/ravenwood/RavenwoodWindows.webp"
     ],
     description: "Ravenwood Blend is a sandstone found in North Central Pennsylvania.",
     specs: {
@@ -202,11 +202,11 @@ const PRODUCTS = [
     id: "shimmeringdiamonds",
     name: "Shimmering Diamonds",
     categories: ["square-rectangle"],
-    cover: "images/shimmeringdiamonds/SDBlock.jpg",
+    cover: "images/shimmeringdiamonds/SDBlock.webp",
     images: [
-      "images/shimmeringdiamonds/SDHouse1.jpg",
-      "images/shimmeringdiamonds/SDHouse2.jpg",
-      "images/shimmeringdiamonds/SDHouse3.jpg"
+      "images/shimmeringdiamonds/SDHouse1.webp",
+      "images/shimmeringdiamonds/SDHouse2.webp",
+      "images/shimmeringdiamonds/SDHouse3.webp"
     ],
     description: "",
     specs: {
@@ -218,11 +218,11 @@ const PRODUCTS = [
     id: "bluestone",
     name: "Bluestone",
     categories: [""],
-    cover: "images/bluestone/BluestoneBlend.jpg",
+    cover: "images/bluestone/BluestoneBlend.webp",
     images:[
-      "images/bluestone/BluestoneBlend.jpg",
-      "images/bluestone/BluestoneLedge.jpg",
-      "images/bluestone/BluestoneLedge2.jpg",
+      "images/bluestone/BluestoneBlend.webp",
+      "images/bluestone/BluestoneLedge.webp",
+      "images/bluestone/BluestoneLedge2.webp",
     ],
     description: "",
     specs: {
@@ -234,10 +234,10 @@ const PRODUCTS = [
     id: "celedon",
     name: "Celedon",
     categories: [""],
-    cover: "images/celedon/CeledonPanel.jpg",
+    cover: "images/celedon/CeledonPanel.webp",
     images:[
-      "images/celedon/CeledonPanel.jpg",
-      "images/celedon/CeledonStack.jpg"
+      "images/celedon/CeledonPanel.webp",
+      "images/celedon/CeledonStack.webp"
     ],
     description: "",
     specs: {
@@ -249,9 +249,9 @@ const PRODUCTS = [
     id: "crystaldark",
     name: "Crystal Dark",
     categories: [""],
-    cover: "images/crystaldark/CrystalDarkPanel.jpg",
+    cover: "images/crystaldark/CrystalDarkPanel.webp",
     images:[
-      "images/crystaldark/CrystalDarkPanel.jpg",
+      "images/crystaldark/CrystalDarkPanel.webp",
     ],
     description: "",
     specs: {
@@ -263,10 +263,10 @@ const PRODUCTS = [
     id: "crystallite",
     name: "Crystal Lite",
     categories: [""],
-    cover: "images/crystallite/CrystalLitePanel.jpg",
+    cover: "images/crystallite/CrystalLitePanel.webp",
     images:[
-      "images/crystallite/CrystalLitePanel.jpg",
-      "images/crystallite/CrystalLite1.jpg",
+      "images/crystallite/CrystalLitePanel.webp",
+      "images/crystallite/CrystalLite1.webp",
     ],
     description: "",
     specs: {
@@ -278,11 +278,11 @@ const PRODUCTS = [
     id: "desertsunburst",
     name: "Desert Sunburst",
     categories: [""],
-    cover: "images/desertsunburst/DesertSunburstPanel.jpg",
+    cover: "images/desertsunburst/DesertSunburstPanel.webp",
     images:[
-      "images/desertsunburst/DesertSunburstPanel.jpg",
-      "images/desertsunburst/DesertSunburst1.jpg",
-      "images/desertsunburst/DesertSunburst2.jpg",
+      "images/desertsunburst/DesertSunburstPanel.webp",
+      "images/desertsunburst/DesertSunburst1.webp",
+      "images/desertsunburst/DesertSunburst2.webp",
     ],
     description: "",
     specs: {
@@ -294,9 +294,9 @@ const PRODUCTS = [
     id: "earthblend",
     name: "Earth Blend",
     categories: ["mosaic"],
-    cover: "images/earthblend/EarthBlendMosaic.jpg",
+    cover: "images/earthblend/EarthBlendMosaic.webp",
     images:[
-      "images/earthblend/EarthBlendMosaic.jpg",
+      "images/earthblend/EarthBlendMosaic.webp",
     ],
     description: "",
     specs: {
@@ -308,11 +308,11 @@ const PRODUCTS = [
     id: "nittany",
     name: "Nittany",
     categories: [""],
-    cover: "images/nittany/NittanyPanel.jpg",
+    cover: "images/nittany/NittanyPanel.webp",
     images:[
-      "images/nittany/NittanyBuff.jpg",
-      "images/nittany/NittanyFireplace.jpg",
-      "images/nittany/NittanyLedgeInstall.jpg"
+      "images/nittany/NittanyBuff.webp",
+      "images/nittany/NittanyFireplace.webp",
+      "images/nittany/NittanyLedgeInstall.webp"
     ],
     description: "",
     specs: {
@@ -324,12 +324,12 @@ const PRODUCTS = [
     id: "silverbay",
     name: "Silver Bay",
     categories: [""],
-    cover: "images/silverbay/SilverBayPanel.jpg",
+    cover: "images/silverbay/SilverBayPanel.webp",
     images:[
-      "images/silverbay/SilverBay1.jpg",
-      "images/silverbay/SilverBay2.jpg",
-      "images/silverbay/SilverBay3.jpg",
-      "images/silverbay/SilverBayFireplace.jpg"
+      "images/silverbay/SilverBay1.webp",
+      "images/silverbay/SilverBay2.webp",
+      "images/silverbay/SilverBay3.webp",
+      "images/silverbay/SilverBayFireplace.webp"
     ],
     description: "",
     specs: {
@@ -344,9 +344,9 @@ const PRODUCTS = [
     cover: "images/timberridge/TimberRidgePanel.webp",
     images:[
       "images/timberridge/TimberRidgePanel.webp",
-      "images/timberridge/TimberRidgeMosaic.jpg",
-      "images/timberridge/TimberRidgeKitchen.jpg",
-      "images/timberridge/TimberRidgeWall.png"
+      "images/timberridge/TimberRidgeMosaic.webp",
+      "images/timberridge/TimberRidgeKitchen.webp",
+      "images/timberridge/TimberRidgeWall.webp"
     ],
     description: "",
     specs: {
@@ -358,9 +358,9 @@ const PRODUCTS = [
     id: "wildginger",
     name: "Wild Ginger",
     categories: [""],
-    cover: "images/wildginger/WildGinger.jpg",
+    cover: "images/wildginger/WildGinger.webp",
     images:[
-      "images/wildginger/WildGinger.jpg",
+      "images/wildginger/WildGinger.webp",
     ],
     description: "",
     specs: {
